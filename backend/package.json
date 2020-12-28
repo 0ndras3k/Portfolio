@@ -1,0 +1,24 @@
+{
+  "name": "@0ndras3k/Portfolio",
+  "version": "1.0.0",
+  "author": {
+    "url": "https://oklapka.tech/",
+    "email": "ja@oklapka.tech",
+    "name": "Ondřej Klapka"
+  },
+  "bugs": {
+    "url": "https://github.com/0ndras3k/Portfolio/issues"
+  },
+  "main": "src/index.ts",
+  "repository": "git@github.com:0ndras3k/Portfolio.git",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.14.16",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  }
+}
