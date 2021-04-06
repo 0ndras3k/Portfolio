@@ -1,24 +1,5 @@
-import React from "react";
-import Navbar from "../components/layout/Navbar";
-
-/** 
- * Images
- */
-import collosus from "../assets/img/colossus.png"
-import uploader from "../assets/img/uploader.png"
-import mainpage from "../assets/img/main-page.png"
-
-import php from "../assets/svg/php-icon.svg"
-import nette from "../assets/svg/nette.svg"
-import react from "../assets/svg/react.svg"
-
-import projectblob from "../assets/svg/projects-blob.svg"
-
-export const Projects = () => {
-  return (
-    <>
-      <div className="py-5 content container">
-        <Navbar />
+<template>
+  <div className="py-5 content container">
         <h2 className="text-center mt-5 pb-4 font-weight-bold">Projects</h2>
         <h4 className="text-center text-secondary font-weight-bold pb-3">
           Commercial projects
@@ -41,14 +22,14 @@ export const Projects = () => {
           <div className="col-lg-4 mb-4 mb-lg-0">
             <div className="card primary mb-4">
               <img
-                src={collosus}
+                src="../assets/img/colossus.png"
                 alt=""
                 className="card-img-top"
               />
               <div className="svg-holder">
-                <img src={php} alt="" />
+                <img src="../assets/svg/nette.svg" alt="" />
               </div>
-              <p className="p-1 mb-0">Colossus Tournaments</p>
+              <p className="p-1 mb-0">Colossus Tournament</p>
             </div>
             <div className="card primary">
               <img
@@ -100,12 +81,13 @@ export const Projects = () => {
           <div className="col-lg-4 mb-4 mb-lg-0">
             <div className="card primary">
               <img
-                src={mainpage}
+                src="../assets/img/main-page.png"
                 alt=""
                 className="card-img-top"
               />
               <div className="svg-holder">
-                <img src={react} alt="" />
+                <img src="../assets/svg/vue.js.svg" alt="" />
+                <img src="../assets/svg/nodejs-icon.svg" alt="" className="ml-2" />
               </div>
               <p className="p-1 mb-0">oklapka.tech</p>
             </div>
@@ -125,9 +107,14 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-      <img src={projectblob} alt="projects-blob" id="projects-blob" className="d-none d-lg-block"></img>
-    </>
-  );
-};
+      <img src="../assets/svg/projects-blob.svg"
+      alt="projects-blob"
+      id="projects-blob"
+      className="d-none d-lg-block">
+</template>
 
-export default Projects;
+<script lang="ts">
+export default {
+  name: 'Home',
+};
+</script>

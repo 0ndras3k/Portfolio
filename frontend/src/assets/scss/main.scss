@@ -3,8 +3,6 @@ $secondary_color: #e29587;
 
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap");
 
-@import "bootstrap";
-
 html,
 body {
   font-family: "Inconsolata", monospace;
@@ -25,6 +23,11 @@ body {
 
 .icons-center {
   text-align: center;
+}
+
+.text-now{
+  color: $secondary_color !important;
+  font-size: 1.55rem;
 }
 
 ul {
@@ -86,7 +89,7 @@ textarea:focus {
   padding: 5px 10px;
 }
 
-.btn-primary {
+.btn-primary-cstm {
   font-weight: 700;
   background-color: $primary_color;
   border-radius: 30px;
@@ -209,9 +212,7 @@ textarea:focus {
   }
 
   .homepage {
-    position: absolute;
     width: 100%;
     top: 50%;
-    transform: translateY(-50%);
   }
 }

@@ -1,24 +1,29 @@
-# Ondřej Klapka - Portfolio
+# frontend-v2
 
-This project was created with React (Bootstrap).
-`https://oklapka.tech`
+## Project setup
 
-## Available Scripts
+```
+yarn install
+```
 
-In the project directory, you can run:
+### Compiles and hot-reloads for development
 
-### `yarn start`
+```
+yarn serve
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Compiles and minifies for production
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+yarn build
+```
 
-### `yarn build`
+### Lints and fixes files
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+yarn lint
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Customize configuration
+
+See [Configuration Reference](https://cli.vuejs.org/config/).
