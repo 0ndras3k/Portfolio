@@ -177,113 +177,54 @@
     <div class="container mt-5">
     <h2 className="text-center pb-4 font-weight-bold">WORK EXPERIENCE</h2>
       <div class="text-center">
-        <p class="text-now">Now</p>
+        <p class="text-now">End</p>
       </div>
       <div class="timeline">
-        <div
-        class="row no-gutters
-        justify-content-end
-        justify-content-md-around
-        align-items-start
-        timeline-nodes">
-          <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
-            <h3 class="text-light">CEO</h3>
-            <p>I lead a company, that wants to be the best.
-            We try to offer work to young people who do not want to work in a corporate company.
-            The company focuses on the development &
-            penetration testing of websites and mobile applications.</p>
-          </div>
-          <div class="col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+        <experienceItem post="CEO"
+        desc="I lead a company, that wants to be the best.
+        We try to offer work to young people who do not want to work
+        in a corporate company. The company focuses on the development &
+        penetration testing of websites and mobile applications." starttime="2021-01-01">
+          <template #company_link>
             <a href="https://froneb.com/"><img src="../assets/img/froneb.png" class="img-fluid" alt="img"></a>
-          </div>
-          <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-            <time>2021-01-01</time>
-          </div>
-        </div>
-        <div
-        class="row
-        no-gutters
-        justify-content-end
-        justify-content-md-around
-        align-items-start
-        timeline-nodes">
-          <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
-            <h3 class=" text-light">Junior Full-Stack Developer</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Saepe, eaque amet deleniti hic quas qui cumque delectus aliquid,
-            eius quia quod, quae, aliquam aspernatur facilis. Minima quod corporis
-            dignissimos porro.</p>
-          </div>
-          <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+          </template>
+        </experienceItem>
+        <experienceItem post="Junior Full-Stack Developer"
+        desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Saepe, eaque amet deleniti hic quas qui cumque delectus aliquid,
+        eius quia quod, quae, aliquam aspernatur facilis. Minima quod corporis
+        dignissimos porro" starttime="2020-12-01">
+          <template #company_link>
             <a href="https://gamerhost.pro/"><img src="../assets/img/Gamerhost.png" class="img-fluid" alt="img"></a>
-          </div>
-          <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-            <time>2020-12-01</time>
-          </div>
-        </div>
-        <div
-        class="row
-        no-gutters
-        justify-content-end
-        justify-content-md-around
-        align-items-start
-        timeline-nodes">
-          <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
-            <h3 class=" text-light">Freelance</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Saepe, eaque amet deleniti hic quas qui cumque delectus aliquid,
-            eius quia quod, quae, aliquam aspernatur facilis. Minima quod corporis
-            dignissimos porro.</p>
-          </div>
-          <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-            <img src="../assets/img/freelance.png" class="img-fluid" alt="img">
-          </div>
-          <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-            <time>2018-09-01</time>
-          </div>
-        </div>
-        <div
-        class="row
-        no-gutters
-        justify-content-end
-        justify-content-md-around
-        align-items-start
-        timeline-nodes">
-          <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
-            <h3 class=" text-light">Junior Frontend Developer</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Saepe, eaque amet deleniti hic quas qui cumque delectus aliquid,
-            eius quia quod, quae, aliquam aspernatur facilis. Minima quod corporis
-            dignissimos porro.</p>
-          </div>
-          <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+          </template>
+        </experienceItem>
+        <experienceItem post="Junior Frontend Developer"
+        desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Saepe, eaque amet deleniti hic quas qui cumque delectus aliquid,
+        eius quia quod, quae, aliquam aspernatur facilis. Minima quod corporis
+        dignissimos porro." starttime="2020-08-01">
+          <template #company_link>
             <a href="https://colossustn.eu/"><img src="../assets/img/colossus-logo.jpg" class="img-fluid" alt="img"></a>
-          </div>
-          <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-            <time>2020-08-01</time>
-          </div>
-        </div>
-        <div
-        class="row
-        no-gutters
-        justify-content-end
-        justify-content-md-around
-        align-items-start
-        timeline-nodes">
-          <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
-            <h3 class=" text-light">Junior Backend Developer</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Saepe, eaque amet deleniti hic quas qui cumque delectus aliquid,
-            eius quia quod, quae, aliquam aspernatur facilis. Minima quod corporis
-            dignissimos porro.</p>
-          </div>
-          <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+          </template>
+        </experienceItem>
+        <experienceItem post="Junior Backend Developer"
+        desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Saepe, eaque amet deleniti hic quas qui cumque delectus aliquid,
+        eius quia quod, quae, aliquam aspernatur facilis. Minima quod corporis
+        dignissimos porro." starttime="2020-11-01" endtime="2021-01-12">
+          <template #company_link>
             <a href="https://qplay.cz/"><img src="../assets/img/qplay.png" class="img-fluid" alt="img"></a>
-          </div>
-          <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
-            <time>2020-11-01</time> - <time>2021-01-12</time>
-          </div>
-        </div>
+          </template>
+        </experienceItem>
+        <experienceItem post="Freelance"
+        desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Saepe, eaque amet deleniti hic quas qui cumque delectus aliquid,
+        eius quia quod, quae, aliquam aspernatur facilis. Minima quod corporis
+        dignissimos porro." starttime="2018-09-01">
+          <template #company_link>
+            <img src="../assets/img/freelance.png" class="img-fluid" alt="img">
+          </template>
+        </experienceItem>
       </div>
       <div class="text-center">
         <button class="button-cv" href="">
@@ -492,7 +433,12 @@
 </style>
 
 <script lang="ts">
+import experienceItem from '../components/experienceItem.vue';
+
 export default {
   name: 'About',
+  components: {
+    experienceItem,
+  },
 };
 </script>
