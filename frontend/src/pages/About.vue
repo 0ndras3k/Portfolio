@@ -246,11 +246,13 @@
   border: 2px dashed #e29587;
   width: 150px;
   height: 50px;
-}
 
-.button-cv:hover{
-  background-color: #e29587;
-  color: #fff;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #e29587;
+    color: #fff;
+  }
 }
 
 :focus{

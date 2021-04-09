@@ -24,8 +24,10 @@
     <div class="py-5 content container"></div>
     <div class="py-5 content container">
       <div class="text-center">
-        <button class="button-cv">Download CV!</button>
-        <router-link to="/contact"><button class="button-cv ml-5">Contact me!</button></router-link>
+        <button class="button-custom">Download CV!</button>
+        <router-link to="/contact">
+          <button class="button-custom ml-5">Contact me!</button>
+        </router-link>
       </div>
     </div>
     <div class="py-5 content container"></div>
@@ -37,6 +39,22 @@
     id="home-blob"
   >
 </template>
+
+<style lang="scss">
+.button-custom {
+  background-color: #fff;
+  border: 2px solid #e29587;
+  width: 150px;
+  height: 50px;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #e29587;
+    color: #fff;
+  }
+}
+</style>
 
 <script lang="ts">
 export default {

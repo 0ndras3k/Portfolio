@@ -3,6 +3,7 @@ import Home from '../pages/Home.vue';
 import Contact from '../pages/Contact.vue';
 import About from '../pages/About.vue';
 import Projects from '../pages/Projects.vue';
+import ErrorPage from '../pages/Error.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -24,6 +25,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/projects',
     name: 'Projects',
     component: Projects,
+  },
+  {
+    path: '/:catchAll(.*)',
+    name: 'Error',
+    component: ErrorPage,
   },
 ];
 
